@@ -1,0 +1,138 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+   display: flex;
+   justify-content: center;
+   align items: center;
+   border: 5px solid red;
+   width: 100%;
+   height: 100vh;
+   background-color: lightblue;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 4.2fr 5fr;
+    width: 67.25rem;
+    height: 31rem;
+}
+
+.forms-container{
+    height: 100%;
+    background-color: azure;
+}
+
+.remember-me {
+    display: flex;
+    gap: 0.3rem;
+    margin-bottom: 1.7rem;
+}
+
+.remember-me label { 
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: rgb(53, 46, 52);
+}
+
+.line-width-text::before,
+.line-width-text::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid rgb(76, 55, 83);
+    margin: 0.6rem;
+}
+
+
+form{
+    padding: 1.8rem;
+}
+
+form p{
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: rgb(68, 72, 74);
+    margin-top: 0.3rem;
+    margin-bottom: 1.8rem;
+}
+
+form p a{
+    color: rgb(155, 22, 146);
+    font-weight: 700;
+}
+
+.input-container{
+    display: flex; 
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1.2rem;
+}
+
+.input-container input{
+    padding: 0.7rem;
+    border: 2px solid blue
+    border-radius: 0.4rem;
+    outline: none;
+}
+
+.input-container label,
+.input-container label a{
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.input-container .forget {
+    display: flex;
+    justify-content: space-between;
+}
+
+form button{
+    width: 100%;
+    padding: 0.9rem 0;
+    background-color: rgb(129, 22, 229);
+    color: rgb(218, 195, 240);
+    font-weight: 500;
+    border: none;
+    border-radius: 0.5rem;
+    margin-bottom: 0.3rem;
+    cursor: pointer;
+}
+
+.line-width-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(98, 88, 107);
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    margin-bottom: 1.3rem;
+}
+
+.other-login {
+    display: flex;
+    justify-content: center;
+    gap: 1rem
+}
+
+.other-login a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.65rem;
+    font-weight: 700;
+    padding: 0.6rem 1.5rem;
+    gap: 0.5rem;
+    border-radius: 0.4rem;
+    text-decoration: none;
+}
+
+.banner{
+    background-image: url(img/STUDENT\ PORTAL.jpeg);
+    background-size: 150%;
+    width: 100%;
+}
+
+

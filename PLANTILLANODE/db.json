@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "id": "2484",
+      "username": "isaac1506",
+      "pass": "12345",
+      "email": "isaacema5@gmail.com",
+      "tipoUsuario": "Profesor"
+    },
+    {
+      "id": "7368",
+      "username": "kary12",
+      "pass": "pol65",
+      "email": "kary56@hotmail.com",
+      "tipoUsuario": "Estudiante"
+    },
+    {
+      "id": "d9dd",
+      "username": "ukiyo07",
+      "pass": "uki009",
+      "email": "ukiyo07@gmail.com",
+      "tipoUsurio": "Estudiante"
+    }
+  ],
+  "Solicitudes": [
+    {
+      "id": "7853",
+      "user_id": "ukiyo07",
+      "sede": "sede1",
+      "fecha_salida": "2025-03-13",
+      "fecha_regreso": "2025-03-21",
+      "codigo_computadora": "4324342",
+      "tipoUsuario": "Estudiante"
+    }
+  ]
+}

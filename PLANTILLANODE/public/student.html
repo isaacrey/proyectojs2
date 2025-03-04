@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1>Formulario de Prestamo de Equipo</h1> 
+   <div class="form-container">
+      <!-- Nombre o ID del usuario (prellenado) -->
+   <div>
+      <label for="user_id">Nombre o ID del usuario:</label>
+      <input type="text" id="user_id" name="user_id" value="ukiyo07" readonly>
+   </div>
+   <br>
+      <!-- Sede -->
+   <div>
+      <label for="sede">Sede:</label>
+      <select id="sede" name="sede">
+        <option value="sede1">PUNTARENAS</option>
+        <option value="sede2">DESAMPARADOS</option>
+        <option value="sede3">NOSARA</option>
+      </select>
+   </div>
+   <br>
+
+      <!-- Fecha de salida -->
+   <div>
+      <label for="fecha_salida">Fecha de salida:</label>
+      <input type="date" id="fecha_salida" name="fecha_salida" required>
+   </div>
+<br>
+
+      <!-- Fecha de regreso -->
+   <div>
+      <label for="fecha_regreso">Fecha de regreso:</label>
+      <input type="date" id="fecha_regreso" name="fecha_regreso" required>
+   </div>
+<br>
+      <!-- Código de la computadora -->
+   <div>
+      <label for="codigo_computadora">Código de la computadora:</label>
+      <input type="text" id="codigo_computadora" name="codigo_computadora" required>
+   </div>
+
+      <!-- Aceptación de condiciones -->
+    <div>
+     <h3>Condiciones de préstamo:</h3>
+     <p>○ Si viajas en transporte público, debes resguardar tu equipo en tu bolso
+        personal, no exponerlo.</p>
+     <p>○ Si llevas el equipo, procura ir acompañado.</p>
+     <p>○ Si está lloviendo, procura llevar el equipo en un vehículo apropiado para
+        evitar algún daño.</p>
+     <p>○ Evitar jugar, descargar o utilizar el equipo para otros motivos que no sean
+        relacionados con el estudio.</p>
+     <p>○ El equipo será revisado antes y después de ser entregado. Cualquier
+        alteración o instalación indebida podría resultar en la pérdida de privilegios.</p>
+     <p>○ Si retiras una computadora sin haber completado el formulario y la boleta
+        física, podrías ser amonestado.</p>
+     <p>○ Este formulario debe llenarse junto con la boleta física, que debe estar
+        firmada por la persona encargada.</p>
+    </div>
+
+
+
+
+      <!-- Checkbox de aceptación de condiciones -->
+   <div>
+      <input type="checkbox" id="box1" value="first_checkbox" />
+      <label for="cbox2">Acepto las condiciones mencionadas.</label>
+      <label>
+   </div>
+        
+<br>
+      <!-- Firma digital (opcional) -->
+   <div>
+      <label for="firma">FIRMA:</label>
+      <input type="text" id="firma" name="firma" placeholder="Firma Digital">
+   </div>
+<br>
+      <!-- Botón de envío -->
+   <div>
+      <button id="envio" type="submit">SOLICITAR EQUIPO</button>
+    </div>
+<br>
+
+<script type="module" src="./service/student.js"></script>
+</body>
+</html>
